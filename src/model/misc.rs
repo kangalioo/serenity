@@ -385,7 +385,6 @@ mod test {
         use crate::utils::Colour;
 
         #[tokio::test]
-        #[allow(clippy::unwrap_used)]
         async fn test_mention() {
             let channel = Channel::Guild(GuildChannel {
                 bitrate: None,
